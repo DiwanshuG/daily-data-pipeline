@@ -1,5 +1,6 @@
 name: Daily Data Scraper
-
+permissions:
+  contents: write
 on:
   schedule:
     # Runs every day at 03:00 UTC (08:30 IST)
